@@ -1,2 +1,1 @@
-# www
 Shadow Foundry website
