@@ -1,1 +1,1 @@
-Shadow Foundry website
+source code for the Shadow Foundry homepage
