@@ -145,7 +145,7 @@
     font-family: 'Lato', sans-serif;
   }
 
-  .showcase {
+  .mainstage {
       position: absolute;
       right: 0;
       width: 100%;
@@ -156,27 +156,27 @@
       align-items: center;
       background: #111;
       color: #fff;
-      z-index: 2;
+      z-index: 1;
       transition: 0.5s;
   }
 
-  .showcase.active {
+  .mainstage.active {
     right: 300px;
   }
 
-  .showcase header {
+  .mainstage header {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       padding: 40px 100px;
-      z-index: 1000;
+      z-index: 20;
       display: flex;
       align-items: center;
       justify-content: space-between;
   }
 
-  .showcase video {
+  .mainstage video {
     position: absolute;
     top: 0;
     left: 0;
@@ -208,7 +208,6 @@
     margin: 20px 0;
     font-weight: 300;
     max-width: 700px;
-
   }
 
   .text a {
@@ -228,6 +227,28 @@
     background: #d3d3d3;
   }
 
+/*
+  .text a {
+    display: inline-block;
+    font-size: 0.8em;
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .text a:hover {
+    color: #000;
+    background: #d3d3d3;
+  }
+
+  .text btn {
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 100px 100px 100px 100px;
+    transition: 0.1s;
+    z-index: 10;
+  }
+*/
     /* All code and contents copyright 2021-2023 Shadow Foundry, Inc. All rights reserved. */
     /* github: shadow-foundry */
 
@@ -246,7 +267,7 @@
   }
 
   @media(max-width: 798px) {
-    .showcase, .showcase header {
+    .mainstage, .mainstage header {
       padding: 40px;
     }
 
