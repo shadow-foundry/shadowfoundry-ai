@@ -145,7 +145,7 @@
     font-family: 'Lato', sans-serif;
   }
 
-  .mainstage {
+  .showcase {
       position: absolute;
       right: 0;
       width: 100%;
@@ -160,11 +160,11 @@
       transition: 0.5s;
   }
 
-  .mainstage.active {
+  .showcase.active {
     right: 300px;
   }
 
-  .mainstage header {
+  .showcase header {
       position: absolute;
       top: 0;
       left: 0;
@@ -176,7 +176,7 @@
       justify-content: space-between;
   }
 
-  .mainstage video {
+  .showcase video {
     position: absolute;
     top: 0;
     left: 0;
@@ -267,7 +267,7 @@
   }
 
   @media(max-width: 798px) {
-    .mainstage, .mainstage header {
+    .showcase, .showcase header {
       padding: 40px;
     }
 
