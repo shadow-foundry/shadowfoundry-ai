@@ -210,14 +210,17 @@
     max-width: 700px;
   }
 
-  .learn-more {
+  .text a {
     display: inline-block;
     font-size: 0.8em;
+    margin-top: 10px;
+  }
+
+  .learn-more {
     background: #fff;
     padding: 12px 25px;
     color: #000;
     text-decoration: none;
-    margin-top: 10px;
     border-radius: 100px 100px 100px 100px;
     transition: 0.1s;
   }
@@ -228,19 +231,17 @@
   }
 
   .get-in-touch {
-    color: #fff;
-    font-size: 0.8em;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-left: 20px;
     background: none;
     padding: 0;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
     border-radius: 0;
-    transition: 0.1s;
  }
 
  .get-in-touch:hover {
   color: #d3d3d3;
+  background: none;
  }
 
     /* All code and contents copyright 2021-2023 Shadow Foundry, Inc. All rights reserved. */
