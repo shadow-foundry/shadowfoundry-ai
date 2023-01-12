@@ -227,28 +227,17 @@
     background: #d3d3d3;
   }
 
-/*
-  .text a {
-    display: inline-block;
-    font-size: 0.8em;
+  /*
+  .get-in-touch {
     color: #000;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-
-  .text a:hover {
-    color: #000;
-    background: #d3d3d3;
-  }
-
-  .text btn {
-    background: #fff;
-    padding: 12px 20px;
-    border-radius: 100px 100px 100px 100px;
     transition: 0.1s;
-    z-index: 10;
   }
-*/
+
+  .get-in-touch:hover {
+    color: #fff;
+  }
+  */
+
     /* All code and contents copyright 2021-2023 Shadow Foundry, Inc. All rights reserved. */
     /* github: shadow-foundry */
 
