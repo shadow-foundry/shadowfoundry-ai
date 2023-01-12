@@ -156,7 +156,7 @@
       align-items: center;
       background: #111;
       color: #fff;
-      z-index: 1;
+      z-index: 2;
       transition: 0.5s;
   }
 
@@ -170,7 +170,7 @@
       left: 0;
       width: 100%;
       padding: 40px 100px;
-      z-index: 20;
+      z-index: 100;
       display: flex;
       align-items: center;
       justify-content: space-between;
