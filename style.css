@@ -210,7 +210,7 @@
     max-width: 700px;
   }
 
-  .text a {
+  .learn-more {
     display: inline-block;
     font-size: 0.8em;
     background: #fff;
@@ -222,21 +222,26 @@
     transition: 0.1s;
   }
 
-  .text a:hover {
+  .learn-more:hover {
     color: #000;
     background: #d3d3d3;
   }
 
-  /*
   .get-in-touch {
-    color: #000;
-    transition: 0.1s;
-  }
-
-  .get-in-touch:hover {
     color: #fff;
-  }
-  */
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    transition: 0.1s;
+ }
+
+ .get-in-touch:hover {
+  color: #d3d3d3;
+ }
 
     /* All code and contents copyright 2021-2023 Shadow Foundry, Inc. All rights reserved. */
     /* github: shadow-foundry */
