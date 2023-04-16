@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /7honeypot/
+
+Sitemap: http://www.shadowfoundry.ai/sitemap.xml
